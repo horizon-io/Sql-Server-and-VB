@@ -2,4 +2,5 @@
 
 The connection string used:
 > Server=(localdb)\MSSQLLocalDB;Database=VB;
-*The Reference:* The website of [connection strings](https://www.connectionstrings.com/sqlconnection/connection-to-a-sql-server-instance/)
+
+**The Reference:** The website of [connection strings](https://www.connectionstrings.com/sqlconnection/connection-to-a-sql-server-instance/)
