@@ -1,0 +1,10 @@
+Z:\sharing\SqlServerDatabase\SqlServerDatabase\bin\Debug\SqlServerDatabase.exe
+Z:\sharing\SqlServerDatabase\SqlServerDatabase\bin\Debug\SqlServerDatabase.pdb
+Z:\sharing\SqlServerDatabase\SqlServerDatabase\bin\Debug\SqlServerDatabase.xml
+Z:\sharing\SqlServerDatabase\SqlServerDatabase\obj\Debug\SqlServerDatabase.vbprojResolveAssemblyReference.cache
+Z:\sharing\SqlServerDatabase\SqlServerDatabase\obj\Debug\SqlServerDatabase.Form1.resources
+Z:\sharing\SqlServerDatabase\SqlServerDatabase\obj\Debug\SqlServerDatabase.Resources.resources
+Z:\sharing\SqlServerDatabase\SqlServerDatabase\obj\Debug\SqlServerDatabase.vbproj.GenerateResource.Cache
+Z:\sharing\SqlServerDatabase\SqlServerDatabase\obj\Debug\SqlServerDatabase.exe
+Z:\sharing\SqlServerDatabase\SqlServerDatabase\obj\Debug\SqlServerDatabase.xml
+Z:\sharing\SqlServerDatabase\SqlServerDatabase\obj\Debug\SqlServerDatabase.pdb
