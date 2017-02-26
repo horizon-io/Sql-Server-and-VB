@@ -19,10 +19,10 @@ Public Class Form1
 
             For Each row In dataset.Tables(0).Rows
 
-                Dim item As ListViewItem = ListView1.Items.Add(row("Id"))
-                item.SubItems.Add(row("Name"))
-                item.SubItems.Add(row("Email"))
-                item.SubItems.Add(row("Age"))
+                ListView1.Items.Add(New ListViewItem(New String() {row("Id"),
+                                                     row("Name"),
+                                                     row("Email"),
+                                                     row("Age")}))
 
             Next
 
