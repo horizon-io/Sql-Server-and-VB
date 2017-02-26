@@ -18,11 +18,11 @@ Public Class Form1
 
             While reader.Read()
 
-                With ListView1.Items.Add(reader("Id"))
-                    .SubItems.Add(reader("Name"))
-                    .SubItems.Add(reader("Email"))
-                    .SubItems.Add(reader("Age"))
-                End With
+                Dim item As ListViewItem = ListView1.Items.Add(reader("Id"))
+                item.SubItems.Add(reader("Name"))
+                item.SubItems.Add(reader("Email"))
+                item.SubItems.Add(reader("Age"))
+
             End While
 
         Catch ex As Exception
