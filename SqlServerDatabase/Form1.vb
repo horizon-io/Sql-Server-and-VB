@@ -9,28 +9,27 @@ Public Class Form1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
-        Dim command As New SqlCommand("SELECT * FROM Students", connection)
+        Dim adpater As New SqlDataAdapter("SELECT * FROM Students", connection)
+
+        Dim dataset As New DataSet()
 
         Try
-            connection.Open()
 
-            Dim reader = command.ExecuteReader()
+            adpater.Fill(dataset)
 
-            While reader.Read()
+            For Each row In dataset.Tables(0).Rows
 
-                Dim item As ListViewItem = ListView1.Items.Add(reader("Id"))
-                item.SubItems.Add(reader("Name"))
-                item.SubItems.Add(reader("Email"))
-                item.SubItems.Add(reader("Age"))
+                Dim item As ListViewItem = ListView1.Items.Add(row("Id"))
+                item.SubItems.Add(row("Name"))
+                item.SubItems.Add(row("Email"))
+                item.SubItems.Add(row("Age"))
 
-            End While
+            Next
 
         Catch ex As Exception
 
             MessageBox.Show(ex.Message)
 
-        Finally
-            connection.Close()
         End Try
 
 
